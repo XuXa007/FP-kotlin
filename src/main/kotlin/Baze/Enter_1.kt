@@ -1,3 +1,5 @@
+package Baze
+
 fun main() {
     println("Ivan")
     println(35)
