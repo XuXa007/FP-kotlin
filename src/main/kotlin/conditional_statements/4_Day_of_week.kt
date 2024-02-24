@@ -1,4 +1,4 @@
-package Conditional_statements
+package conditional_statements
 
 fun main() {
     val num = readln()

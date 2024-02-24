@@ -1,4 +1,4 @@
-package Baze
+package baze
 
 val days = 2642
 fun main() {

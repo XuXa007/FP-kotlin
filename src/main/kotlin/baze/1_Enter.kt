@@ -1,4 +1,4 @@
-package Baze
+package baze
 
 fun main() {
     println("Ivan")

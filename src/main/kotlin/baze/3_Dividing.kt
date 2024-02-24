@@ -1,4 +1,4 @@
-package Baze
+package baze
 
 fun main() {
     println("Введить 4-х значное число:")

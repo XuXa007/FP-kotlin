@@ -1,4 +1,4 @@
-package Baze
+package baze
 
 var a: Int = 5
 var b: String = "F"

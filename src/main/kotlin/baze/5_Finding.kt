@@ -1,4 +1,4 @@
-package Baze
+package baze
 fun main() {
     val input = readln()
     val res = input.toInt().let {
