@@ -7,7 +7,7 @@ fun main() {
 
     println("У вас есть числа: $num1 и $num2")
     println("1.Добавить" + "\n" + "2.Отнять" + "\n" + "0.Ничего")
-    var a = readln()
+    val a = readln()
     when (a) {
         "0" -> println("Выход")
         "1" -> println("Получилось: $num1+$num2 = ${num1 + num2}")

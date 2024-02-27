@@ -7,5 +7,6 @@ fun main() {
     val day: Int = (days % 365) % 7
 
     println("Лет: $years, недель: $weeks, дней: $day")
+    println(days%365)
 }
 

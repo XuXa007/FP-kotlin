@@ -1,8 +1,5 @@
 package baze
 fun main() {
-    val input = readln()
-    val res = input.toInt().let {
-        it + it * 2
-    }
-    println("$res")
+    val input = readln().toInt()
+    println("$input${input*2}")
 }
