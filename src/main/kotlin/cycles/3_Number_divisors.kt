@@ -7,17 +7,17 @@ import java.util.*
 fun main() {
     val scanner = Scanner(System.`in`)
     val number: BigInteger = scanner.nextBigInteger()
-    var i = BigInteger.ONE
-    while (i <= number) {
-        if (number % i == BigInteger.ZERO) {
-            if (number == i) {
-                print(i)
+    var test = BigInteger.ONE
+    while (test <= number) {
+        if (number % test == BigInteger.ZERO) {
+            if (number == test) {
+                print(test)
             } else {
-                print("$i, ")
+                print("$test, ")
 
             }
         }
-        i++
+        test++
     }
     scanner.close()
 }
