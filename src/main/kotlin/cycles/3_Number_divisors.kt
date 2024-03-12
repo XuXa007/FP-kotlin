@@ -1,14 +1,23 @@
 package cycles
 
+import java.math.BigInteger
+import java.util.*
+
+
 fun main() {
-    val a = readln().toInt()
-    for (i in 1..a) {
-        if (a%i == 0) {
-            if (i == a) {
-                print("${i}")
+    val scanner = Scanner(System.`in`)
+    val number: BigInteger = scanner.nextBigInteger()
+    var i = BigInteger.ONE
+    while (i <= number) {
+        if (number % i == BigInteger.ZERO) {
+            if (number == i) {
+                print(i)
             } else {
-                print("${i}, ")
+                print("$i, ")
+
             }
         }
+        i++
     }
+    scanner.close()
 }

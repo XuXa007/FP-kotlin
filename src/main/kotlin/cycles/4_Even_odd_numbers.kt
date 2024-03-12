@@ -1,5 +1,7 @@
 package cycles
 
+import java.util.*
+
 fun main() {
     val input = readln().toInt()
     var even = 0
