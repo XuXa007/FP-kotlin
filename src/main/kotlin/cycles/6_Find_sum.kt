@@ -11,7 +11,6 @@ fun main() {
             c += b
         }
     }
-//    println("b: ${b}")
     println("c: ${c}")
 
 //    println(1511)
