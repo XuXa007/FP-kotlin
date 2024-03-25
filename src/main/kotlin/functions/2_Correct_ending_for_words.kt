@@ -11,10 +11,8 @@ fun main() {
 
 fun pluralYear(choice: Int): String {
     return if (choice % 10 == 1 && choice % 100 != 11) {
-//        println(choice % 100)
         "$choice год"
     } else if (choice % 10 in 2..4 && (choice % 100 < 10 || choice % 100 >= 20)) {
-        println(choice % 100)
         "$choice года"
     } else {
         "$choice лет"

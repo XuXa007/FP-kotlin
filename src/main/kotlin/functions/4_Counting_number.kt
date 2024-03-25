@@ -1,8 +1,9 @@
 package functions
 
 fun findCountLetter(str: String) {
-    val trimmedSentence = str.trim()
-    val words = trimmedSentence.split(Regex("\\s+"))
+    val trimmed = str.trim()
+    val words = trimmed.split(Regex("\\s+"))
+//    split(Regex("\\s+")) строка будет разделена на подстроки по символам (пробел или знаками)
     println(words.size)
 }
 fun main() {
