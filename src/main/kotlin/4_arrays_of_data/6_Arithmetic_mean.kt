@@ -4,9 +4,9 @@ import java.util.*
 
 fun main() {
     val scanner = Scanner(System.`in`)
-
     val input = scanner.nextLine()
-    val arr1 = input.split(", ").map { it.toInt() }
+    val arr1 = input.split(", ").map { it.toInt() }.toIntArray()
     val mean = arr1.sum().toDouble() / arr1.size
+    println(mean)
     println(arr1.filter { it > mean })
 }
