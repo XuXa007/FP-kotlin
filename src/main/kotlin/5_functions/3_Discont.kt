@@ -6,9 +6,10 @@ fun foundDis(price: Double, dis: Double) {
 }
 
 fun main() {
-    val priceIn = 234242341.23
+    val priceIn = 100.0
 //    val priceIn = readln().toFloat()
 //    val disIn = readln().toFloat()
-    val disIn = 15.5
+    val disIn = 15.0
     foundDis(priceIn, disIn)
 }
+

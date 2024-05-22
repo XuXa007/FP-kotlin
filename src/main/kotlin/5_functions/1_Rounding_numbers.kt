@@ -9,5 +9,5 @@ fun roundFourDigitNumber(number: Int): Any {
 }
 
 fun main() {
-    println(roundFourDigitNumber(272))
+    println(roundFourDigitNumber(2720))
 }

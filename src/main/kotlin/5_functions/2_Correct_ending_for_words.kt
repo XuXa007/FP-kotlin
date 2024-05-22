@@ -2,7 +2,7 @@ package `5_functions`
 
 fun main() {
     var number = readln().toInt()
-    while (number != 123) {
+    while (number != -1) {
         val choice = pluralYear(number)
         println(choice)
         number = readln().toInt()
